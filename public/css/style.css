@@ -1,0 +1,92 @@
+
+html {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+   height: 56.250em;
+   display: flex;
+   align-items: center;
+}
+
+.centered-box{
+   width: 70%;
+   height: 53.125em;
+   background-color: white;
+   margin: auto;
+   overflow: hidden;
+
+}
+
+
+.top_bar{
+   width: 100%;
+   border-top: 0.06em solid lightgray;
+   display: inherit;
+}
+
+.top_bar img{
+   height: 2.9em;
+   width: auto;
+   margin: 0.62em;
+}
+
+
+.main_content{
+   display: flex;
+   background-color: red;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+.left_content{
+   background-color: white;
+   height: 100%;
+   width: 25%;
+
+}
+
+.right_content{
+   background-color: white;
+   height: 100%;
+   width: 75%;
+   border-left: 1px solid lightgray;
+}
+
+.picture img{
+   margin-top: 0.62em;
+}
+
+.picture img, .subscribe img, .about img, .comments img {
+    width: 90%;
+    height: auto;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+
+}
+
+.guide img{
+   width: 90%;
+   margin: 0.62em;
+}
+
+
+.search_field {
+    background-color: white;
+    border: 0.07 solid lightgray;
+    width: 30%;
+    height: auto;
+    font-size: 18px;
+    text-align: left;
+    vertical-align: 25px;
+    float: inherit;
+}
+#search_button {
+   height: 50%;
+   width: auto;
+   margin-left: 2em;
+   margin-bottom: 1em;
+   /*vertical-align: 0.8em;*/
+  }
